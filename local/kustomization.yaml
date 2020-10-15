@@ -1,0 +1,6 @@
+commonLabels:
+  tss.vmware.com/service: kafka
+resources:
+  - kafka-configmap.yaml
+  - kafka-statefulset.yaml
+  - kafka-service.yaml
